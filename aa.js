@@ -1,0 +1,11 @@
+ let text =" Hello WORLD! "
+ console.log(text.trim())
+ let trimmedtext = text.trim()
+ console.log(text.startsWith("Hello"))
+ console.log(text.endsWith("WORLD!"))
+ console.log(text.toLowerCase())
+ console.log(text.indexOf("WORLD"))
+ console.log(text.replace("WORLD" ,"NIGERIA"))
+ console.log(text.replaceAll("L", "1"))
+ console.log(text.toUpperCase())
+ console.log(trimmedtext.slice(3, 8))

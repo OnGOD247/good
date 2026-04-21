@@ -1,0 +1,11 @@
+ const msg = " Hello, WORLD! "
+ console.log(msg.trim())
+let trimmedmsg = msg.trim()
+ console.log(msg.startsWith("Hello"))
+ console.log(msg.endsWith("WORLD"))
+ console.log(trimmedmsg.toLowerCase())
+ console.log(trimmedmsg.indexOf("WORLD"))
+ console.log(trimmedmsg.replace("WORLD", "Nigeria"))
+ console.log(trimmedmsg.replaceAll("L", "1"))
+ console.log(trimmedmsg.toUpperCase())
+ console.log(trimmedmsg.substring(3, 8))
